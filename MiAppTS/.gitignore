@@ -1,0 +1,37 @@
+# Dependencias
+node_modules/
+package-lock.json 
+yarn-error.log*
+npm-debug.log*
+
+# Builds
+dist/
+build/
+.web/
+
+# Expo
+.expo/
+.expo-shared/
+
+# Metro/Cache
+.expo/web/cache/
+.expo/web/cache-development/
+.expo/web/cache-production/
+.expo/web/cache-test/
+*.cache
+.cache/
+expo-env.d.ts
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Test/coverage
+coverage/
+*.lcov
+
+# Env (si lo usas)
+.env
+.env.*
