@@ -5,28 +5,8 @@ const Header = () => {
     return (
         <View style={styles.header}>
             <View style={styles.container}>
-                <Image source={require('../assets/Skyscanner-Symbol.png')} style={styles.sky_logo} />
-                <Text style={styles.font_title}>Skyscanner</Text>
-            </View>
-            <View style={styles.logos_container}>
-                <View style={styles.logo_and_text}>
-                    <Pressable style={styles.circle}>
-                        <Image source={require('../assets/icons8-activar-el-modo-avión-64.png')} style={styles.logos} />
-                    </Pressable>
-                    <Text style={styles.logo_text}>Flights</Text>
-                </View>
-                <View style={styles.logo_and_text}>
-                    <Pressable style={styles.circle}>
-                        <Image source={require('../assets/icons8-cama-64.png')} style={styles.logos} />
-                    </Pressable>
-                    <Text style={styles.logo_text}>Hotels</Text>
-                </View>
-                <View style={styles.logo_and_text}>
-                    <Pressable style={styles.circle}>
-                        <Image source={require('../assets/icons8-personas-en-coche,-vista-lateral-50.png')} style={styles.logos} />
-                    </Pressable>
-                    <Text style={styles.logo_text}>Car Rental</Text>
-                </View>
+                <Image source={require('../assets/klipartz.com.png')} style={styles.sky_logo} />
+                <Text style={styles.font_title}>SkyGymApp</Text>
             </View>
         </View>
     )
@@ -54,14 +34,14 @@ const styles = StyleSheet.create({
         width: 64,
         height: 64,
         resizeMode: 'contain',
+        tintColor: CardColors.BLANCO
     },
 
     font_title: {
         color: CardColors.BLANCO,
         fontSize: 34,
         marginLeft: 5,
-        fontWeight: 800
-
+        fontWeight: 800,
     },
 
     logos_container: {
