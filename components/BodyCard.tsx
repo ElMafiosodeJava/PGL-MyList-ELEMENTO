@@ -41,7 +41,7 @@ const BodyCard: React.FC<CardProps> = ({
             <View style={styles.text_container}>
                 <Text
                     numberOfLines={1}
-                    style={[styles.name, marked && styles.name_marked]}
+                    style={styles.name}
                 >
                     {name}
                 </Text>
@@ -99,10 +99,6 @@ const styles = StyleSheet.create({
         color: CardColors.BLANCO,
         fontSize: 18,
         fontWeight: '600',
-    },
-    name_marked: {
-        textDecorationLine: 'line-through',
-        color: CardColors.GRIS,
     },
     category: {
         color: CardColors.GRIS,

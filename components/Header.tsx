@@ -6,7 +6,7 @@ const Header = () => {
         <View style={styles.header}>
             <View style={styles.container}>
                 <Image source={require('../assets/klipartz.com.png')} style={styles.sky_logo} />
-                <Text style={styles.font_title}>SkyGymApp</Text>
+                <Text style={styles.font_title}>SkyGymShop</Text>
             </View>
         </View>
     )
